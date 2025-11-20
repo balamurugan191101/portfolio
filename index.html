@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Your Name</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root{--accent:#0d6efd}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+    .hero{min-height:72vh;display:grid;place-items:center}
+    .avatar{width:150px;height:150px;border-radius:50%;object-fit:cover;border:6px solid rgba(13,110,253,.1)}
+    .project-card{transition:transform .18s ease,box-shadow .18s ease}
+    .project-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(13,110,253,.08)}
+    .chip{display:inline-block;padding:.25rem .6rem;border-radius:999px;background:#f1f5ff;color:var(--accent);font-weight:600;font-size:.85rem}
+    .glass{backdrop-filter: blur(6px);background: rgba(255,255,255,0.6)}
+    footer{font-size:.9rem}
+    @media (prefers-color-scheme:dark){
+      body{background:#0b1220;color:#dbe7ff}
+      .glass{background: rgba(10,14,22,0.55)}
+      .chip{background:rgba(255,255,255,0.06);color:#9fc7ff}
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"><span class="text-primary">BALAMURUGAN H</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item ms-2"><a class="btn btn-outline-primary btn-sm" href="#contact">Hire me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <img src="./assets/image/bala2.jpeg" alt="avatar" class="avatar mb-3">
+          <h1 class="display-6 fw-bold">Hi, I'm <span class="text-primary">BALAMURUGAN H</span></h1>
+          <p class="lead">IT Support Executive | Frontend Developer • Angular &amp; Bootstrap specialist • Building responsive, accessible web apps.</p>
+          <div class="d-flex gap-2 mt-3 flex-wrap">
+            <a class="btn btn-primary" href="#projects"><i class="fa-solid fa-code me-2"></i>See projects</a>
+            <a class="btn btn-outline-secondary" href="./assets/image/Balamurugan_H_ITSupport.pdf" download><i class="fa-regular fa-file-lines me-2"></i>Download CV</a>
+            <span class="chip align-self-center">Open to work</span>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-flex justify-content-center">
+          <div class="glass p-4 rounded-3 w-100" style="max-width:520px">
+            <h5 class="mb-3">Quick info</h5>
+            <ul class="list-unstyled mb-0">
+              <li><strong>Location:</strong> Chennai, India</li>
+              <li><strong>Experience:</strong> 3.3 years</li>
+              <li><strong>Primary:</strong> ITSupport Executive,Angular, Bootstrap, JavaScript</li>
+            </ul>
+            <div class="mt-3">
+              <small>Contact</small>
+              <div class="d-flex gap-2 mt-2">
+                <a class="btn btn-sm btn-outline-primary" href="mailto:balamurugan191101@gmail.com"><i class="fa-regular fa-envelope me-1"></i>Email</a>
+                <a class="btn btn-sm btn-outline-primary" href="https://github.com/balamurugan191101" target="_blank"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+                <a class="btn btn-sm btn-outline-primary" href="https://www.linkedin.com/in/balamurugan-h-46b6bb256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin me-1"></i>LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="about" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">About Me</h2>
+      <p class=" mx-auto" style="max-width: 750px;">
+        I’m a versatile professional with experience in both Frontend Development and IT Support.
+        I love creating clean, interactive web interfaces and also excel in managing IT infrastructure,
+        troubleshooting, and delivering seamless technical support.
+      </p>
+    </div>
+
+    <div class="row justify-content-between mb-4">
+      <div class="col-lg-5">
+        <h4 class="fw-bold mb-3 text-center">IT Support Executive</h4>
+        <ul class="mb-4">
+          <li>3.5 years of hands-on IT Support experience</li>
+          <li>Managed and maintained 150+ systems</li>
+          <li>Hardware & software troubleshooting</li>
+        </ul>
+
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="p-3 border rounded text-center h-100">
+              <h3 class="fw-bold mb-0">150+</h3>
+              <small>Systems Managed</small>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="p-3 border rounded text-center h-100">
+              <h3 class="fw-bold mb-0">3.3 Years</h3>
+              <small>IT Support Experience</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <h4 class="fw-bold mb-3 text-center">Frontend Developer</h4>
+        <ul class="mb-4">
+          <li>Strong skills in Angular, JavaScript, and Bootstrap 5</li>
+          <li>Experience with Node.js & Express.js backend</li>
+          <li>Basic knowledge of Git and CI/CD workflows</li>
+        </ul>
+
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="p-3 border rounded text-center h-100">
+              <h3 class="fw-bold mb-0">Angular</h3>
+              <small>Primary Skill</small>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="p-3 border rounded text-center h-100">
+              <h3 class="fw-bold mb-0">1 years</h3>
+              <small >Frontend Developer</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <div class="d-flex justify-content-between mb-4">
+      <h2 class="mb-0 text-primary">Projects</h2>
+      <small class="text-muted">Selected work</small>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="card-img-top"
+            alt="Project image"
+          />
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="fw-bold">IT Asset & System Monitoring</h5>
+            <p class="text-muted">
+              Managed 150+ systems with monitoring, troubleshooting, user support, and performance tracking.
+            </p>
+
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-primary">Details</a>
+                <a class="btn btn-sm btn-outline-secondary">Report</a>
+              </div>
+              <small class="text-muted">IT Support • Monitoring</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <img
+            src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1200"
+            class="card-img-top"
+            alt="Full-stack Development"
+          />
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="fw-bold">Employee Management System</h5>
+            <p class="text-muted">
+              Built using Angular & Node.js with CRUD operations, authentication, and admin dashboards.
+            </p>
+
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-primary">Details</a>
+                <a class="btn btn-sm btn-outline-secondary">Demo</a>
+              </div>
+              <small class="text-muted">Angular • Node.js</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200"
+            class="card-img-top"
+            alt="Automation"
+          />
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="fw-bold">Ticketing & Automation</h5>
+            <p class="text-muted">
+              Automated IT requests, access approvals, and server issue tracking for faster workflow.
+            </p>
+
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-primary">Details</a>
+                <a class="btn btn-sm btn-outline-secondary">Workflow</a>
+              </div>
+              <small class="text-muted">Automation • ITSM</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> 
+
+  </div> 
+</section>
+
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="row g-3">
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">Hardware & software troubleshooting</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">network & VPN Configuration</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">Windows</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">AD & Windows Server</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">Angular</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">Bootstrap 5</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">JavaScript</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">Node.js</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">Git & GitHub</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3 border rounded text-center">SQL</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h2 class="text-primary">Get in touch</h2>
+        <p class="text-muted">Available for contract or full-time roles.</p>
+
+        <ul class="list-unstyled">
+          <li><strong class="text-muted">Email:</strong> <a href="mailto:youremail@example.com">balamurugan191101@gmail.com</a></li>
+          <li class="text-primary"><strong class="text-muted">Phone:</strong> +91 9500039472</li>
+          <li class="text-primary"><strong class="text-muted">Location:</strong> Chennai, India</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card p-3">
+          <form #f="ngForm" (ngSubmit)="sendEmail(f.value)">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input required class="form-control" name="name" ngModel>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label ">Email</label>
+              <input required type="email" class="form-control" name="email" ngModel>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea required rows="4" class="form-control" name="message" ngModel></textarea>
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <button class="btn btn-primary">Send message</button>
+              <small class="text-muted">
+                Prefer GitHub?
+                <a href="https://github.com/balamurugan191101" target="_blank">Open source</a>
+              </small>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<footer class="py-4 text-center">
+  <div class="container">
+    <div class="mb-2">© {{ year }} BAlAMURUGAN — Built with Bootstrap</div>
+    <div>
+      <a href="#" class="text-decoration-none me-2">Privacy</a>
+      <a href="#" class="text-decoration-none">Terms</a>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function sendEmail(form){
+      const name = form.name.value.trim();
+      const email = form.email.value.trim();
+      const message = form.message.value.trim();
+      const subject = encodeURIComponent('Portfolio contact from ' + name);
+      const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message);
+      window.location.href = 'mailto:youremail@example.com?subject=' + subject + '&body=' + body;
+      return false;
+    }
+  </script>
+</body>
+</html>
+
